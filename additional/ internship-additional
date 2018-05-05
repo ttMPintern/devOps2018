@@ -1,0 +1,6 @@
+This is an additional part of our quest.
+
+1. Please add log rotation for supervisor and dpkg files at /var/log/ directory.
+2. Write down a little program that is able to show up your public IP.
+3. The result of this program execution should be available at 'internship.macpaw.io/ip'
+ 
