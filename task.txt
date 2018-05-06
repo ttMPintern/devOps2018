@@ -18,9 +18,9 @@ additional information about you. Describe these changes in Dockerfile as well.
 +5. We want to see this page using domain name 'internship.macpaw.io'. You know what to do :) 
 +6. We have an encrypted file with additional tasks at '/tmp/additional.zip', but we forgot the password for this file.  Fortunately one of 
 us remembers that we added three values to compute the password:
-  a) most common non-200 response code at our old website
-  b) number of requests from 8.8.8.8
-  c) the two first symbols from ETag header of a file stored in our s3 bucket
+ + a) most common non-200 response code at our old website
+ + b) number of requests from 8.8.8.8
+ + c) the two first symbols from ETag header of a file stored in our s3 bucket
   For 'a' and 'b' subtasks our old logs stored at '/var/log/nginx/old.log'. For 'c' endpoint is 'hint.macpaw.io'.
   For example, if you get 302, 77 and 10 in the three above values, just add them like 302+77+10=389 - this would be yo ur password
   It will be fine if you can write a script for this purpose. This is the end of our basic quest. You can stop here and commit everything 
@@ -31,7 +31,7 @@ Remember to reflect all your changes in Dockerfile and ensure that your Dockerfi
 
 This is an additional part of our quest.
 
-1. Please add log rotation for supervisor and dpkg files at /var/log/ directory.
++1. Please add log rotation for supervisor and dpkg files at /var/log/ directory.
 +2. Write down a little program that is able to show up your public IP.
 +3. The result of this program execution should be available at 'internship.macpaw.io/ip'
 
